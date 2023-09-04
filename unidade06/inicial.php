@@ -9,7 +9,12 @@
     </head>
 
     <body>
-        <p><?php echo "Matheus Fontenelle" ?></p>
+        <!-- COMENTARIO DE HTML -->
+        <p><?php 
+            //comentario em PHP
+            echo "Matheus Fontenelle" 
+            ?>
+        </p>
         <p><?php echo 5*4; ?></p>
     </body>
 </html>

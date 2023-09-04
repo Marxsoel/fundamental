@@ -1,3 +1,9 @@
+<?php
+$_nome = "Marxsoel Elias";
+$_salario = 5000;
+?>
+
+
 <!doctype html>
 <html>
     <head>
@@ -6,5 +12,7 @@
     </head>
 
     <body>
+        <?php echo $_nome; ?>
+        <p><?php echo $_salario; ?></p>
     </body>
 </html>
