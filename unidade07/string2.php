@@ -13,7 +13,7 @@
         
         <?php 
             // strlen - Retorna primeira ocorrencia
-            
+            echo strlen($_nome);
             
             // stripos  - Retorna primeira ocorrência 
             
