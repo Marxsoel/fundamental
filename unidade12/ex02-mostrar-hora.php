@@ -7,9 +7,26 @@
 
     <body>
         <?php
-            date_default_timezone_set('US/Eastern');
+            // determinar timezone
+            date_default_timezone_set('Brazil/East');
             $_agora = getdate();
-            print_r($_agora);
+            
+            // criar elementos
+            $_segundo   = $_agora["seconds"];
+            $_minuto    = $_agora["minutes"];
+            $_hora      = $_agora["hours"];
+            
+            $_dia       = $_agora["mday"];
+            $_mes       = $_agora["mon"];
+            $_ano       = $_agora["year"];
+
+           
+            $_nmes       = $_agora["month"];
+            $_diasemana       = $_agora["weekday"];
+
+            // mostrar na tela
+            echo ($_hora . ":" . $_minuto . ":" . $_segundo . " - " . $_dia . "/" . $_mes . "/" . $_ano . "<br>");
+            echo ($_diasemana . " - " . $_nmes);
         ?>
     </body>
 </html>
