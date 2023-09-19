@@ -6,7 +6,11 @@
 </head>
 <body>
     <?php                    
-        $_salada = array("","","");
+        $_salada = array("Orange","Grape","Avocado");
+
+        foreach( $_salada as $_frutas) {
+            echo $_frutas . "<br>";
+        }
     ?>
 </body>
 </html>
